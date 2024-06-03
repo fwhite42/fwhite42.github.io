@@ -1,0 +1,57 @@
+:root {
+	--black			: #251f40;
+	--white			: #fff2f7;
+	--blue			: #a3c8ff;
+}
+
+html {
+}
+
+body {
+	margin			: 0px;
+	padding			: 0px;
+	background-color	: var(--black);
+	color			: var(--white);
+}
+
+a {
+	color			: var(--blue);
+	text-decoration		: none;
+}
+
+
+nav {
+	position		: fixed;
+	width			: 100%;
+	top			: 0%;
+	height			: 5%;
+}
+
+footer {
+	padding			: 0px;
+	margin			: 0px;
+	position		: fixed;
+	width			: 100%;
+	bottom			: 0%;
+	height			: 5%;
+	color			: var(--blue);
+}
+
+menu {
+	position		: fixed;
+	top			: 15%;
+	width			: 20%;
+	height			: 80%;
+	padding			: 0px;
+	margin			: 0px;
+}
+
+main {
+	position		: fixed;
+	left			: 20%;
+	top			: 15%;
+	width			: 80%;
+	height			: 80%;
+	margin			: 0px;
+	padding			: 0px;
+}
