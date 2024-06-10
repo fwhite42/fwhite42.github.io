@@ -47,8 +47,6 @@ footer {
 }
 
 menu {
-	border			: solid;
-	border-color		: var(--white);
 	position		: fixed;
 	top			: 15%;
 	width			: 10%;
@@ -67,7 +65,12 @@ main {
 	padding			: 0px;
 }
 
-article {
+main > h2 {
+	color: var(--blue);
+	margin: 2%;
+}
+
+main > article {
 	overflow		: scroll;
 	position		: fixed;
 	left			: 10%;
@@ -75,9 +78,12 @@ article {
 	width			: 40%;
 	height			: 80%;
 	margin			: 0px;
-	padding			: 0px;
+	padding			: 2%;
 }
 
+article > pre {
+	width			: 90%;
+}
 
 img {
 	position		: fixed;
